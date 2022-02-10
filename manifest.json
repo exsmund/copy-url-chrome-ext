@@ -1,0 +1,20 @@
+{
+  "name": "Copy decoded url this page",
+  "description": "Adds a copy button to the browser.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Copy decoded url this page",
+      "default_icon": "icon48.png"
+  },
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+  "manifest_version": 2
+}
